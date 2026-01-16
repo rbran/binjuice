@@ -1,0 +1,18 @@
+[package]
+name = "binjuice"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1.0.100"
+binaryninja = { git = "https://github.com/Vector35/binaryninja-api.git", branch = "dev"}
+cpal = "0.17.1"
+paste = "1.0.15"
+rodio = "0.21.1"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_yaml = "0.9.34"
+# Locates binaryninjacore on your system.
+#binaryninjacore-sys = { git = "https://github.com/Vector35/binaryninja-api.git", branch = "dev"}
