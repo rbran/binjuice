@@ -1,5 +1,7 @@
 BinJuice is a Binary Ninja plugin that play sounds using the `DataNotification` interface.
 
+[![BinJuice in Action](https://img.youtube.com/vi/t9W2C3xB5_A/hqdefault.jpg)](https://www.youtube.com/embed/t9W2C3xB5_A)
+
 This is a joke and should not be used in production.
 
 But if you want to use it anyways, you can configure it by creating the file at `${BINJA_USER_DIR}/binjuice.yml`.
